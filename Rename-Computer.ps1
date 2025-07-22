@@ -1,0 +1,1 @@
+Rename-Computer -NewName TSR-AD -Force -Restart
