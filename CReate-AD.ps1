@@ -17,4 +17,3 @@
                        -ForestMode "WinThreshold" `
                        -InstallDNS `
                        -Force
-}
