@@ -11,7 +11,7 @@
     Set-NetFirewallProfile -All -Enabled False
 
     # Instalare AD
-    Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
+    Install-WindowsFeature AD-Domain-Services -IncludeManagementTools 
     Install-ADDSForest -DomainName TSR.Local `
                        -DomainMode "WinThreshold" `
                        -ForestMode "WinThreshold" `
