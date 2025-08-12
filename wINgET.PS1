@@ -1,7 +1,7 @@
 # Verificăm dacă WinGet este instalat
 if (-not (Get-Command winget -ErrorAction SilentlyContinue)) {
     Write-Output "WinGet nu este instalat. Instalarea va fi inițiată."
-    # Comanda pentru a instala WinGet (asigură-te că ai setările corecte pentru a permite instalarea)
+    # Comanda pentru a instala WinGet (asigura-te ca ai setările corecte pentru a permite instalarea)
     Start-Process "powershell.exe" -ArgumentList "scoop install winget" -Wait -NoNewWindow
 }
 
