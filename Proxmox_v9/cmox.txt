@@ -1,3 +1,5 @@
+cd ~/Intune
+
 #./create_vms_from_template_interactive.sh
 chmod +x create_vms_from_template.sh create_vms_from_template_interactive.sh
 
