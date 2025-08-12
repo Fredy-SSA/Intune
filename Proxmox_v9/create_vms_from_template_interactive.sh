@@ -4,7 +4,7 @@
 TEMPLATE_ID=101
 TEMPLATE_NAME="Template W11"
 BASE_VM_ID=200  # Starting ID for new VMs
-CLONE_STORAGE="local-lvm"  # Storage where the VM disks will be stored
+CLONE_STORAGE="Date"  # Storage where the VM disks will be stored
 NODE_NAME="pve"  # Name of the Proxmox node
 
 # Function to create a single VM from the template
